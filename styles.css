@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; /* Adjust the image's position */ /* Set a background color if the image doesn't cover the entire viewport */
+    padding: 20px;
+}
+
+
+   /* Navbar container */
+/* Navbar container */
+.navbar {
+    background-color: transparent; /* Set background color to transparent */
+    overflow: hidden;
+  }
+  
+  
+  /* Navbar links */
+  .navbar a {
+    float: left; /* Align links horizontally */
+    display: block; /* Make links a block element */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 14px 16px; /* Add padding to each link */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Navbar links on hover */
+  .navbar a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: #333; /* Text color on hover */
+  }
+  
+  /* Active link */
+  .navbar .active {
+    background-color: #4CAF50; /* Background color for the active link */
+  }
+  
+  /* Responsive navigation menu */
+  @media screen and (max-width: 600px) {
+    .navbar a {
+      float: none; /* Remove the float for small screens */
+      display: block; /* Display links as block elements */
+      text-align: left; /* Align text to the left */
+    }
+  }
+
+/* Dropdown menu styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #444;
+  }
+  
+  /* Dropdown icon style */
+  .dropdown-icon {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  
+
+
+        .user {
+            display: flex;
+            align-items: center;
+        }
+        
+        #loginBtn {
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-right: 40px;
+            text-align: right;
+            align-items: right;
+            align-self: right;
+
+        }
+
+        #loginBtn:hover {
+             background-color: linen;
+             color:#2196F3;
+             border: #f0f0f0;
+             border-radius: 5px;
+             padding: 10px 20px;
+             cursor: pointer;
+             margin: 5px;
+
+        }
+        
+        #userLogo {
+            display: none; /* Initially hidden */
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+            border-radius: 50%;
+        }
+
+        .content
+        {
+            display: contents;
+            margin-top: 25px;
+        }
